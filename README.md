@@ -1,42 +1,56 @@
 <h1 align="center">✨ Layout ✨</h1>
+<p align="center">
+  <strong>A modern, slightly-crazy starter for <em>React (Vite) + Tailwind</em> frontend + <em>Django + DRF</em> backend.</strong><br/>
+  Build fast. Ship faster. Repeat.
+</p>
 
 <p align="center">
-A modern boilerplate to kickstart your <b>React + Django</b> projects with zero hassle.<br/>
-Focus on building features, not setup.
+  <img src="https://img.shields.io/badge/Status-Prototype-yellow" alt="status" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="license" />
+  <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" alt="react" />
+  <img src="https://img.shields.io/badge/Backend-Django-green?logo=django" alt="django" />
 </p>
 
 ---
 
-## 🚀 What is Layout?
-Layout is a **plug-and-play project starter** that gives you:
-- ⚡ Ready Django backend with JWT Auth
-- 🎨 React + TailwindCSS frontend
-- 🔐 Secure CORS & API integration
-- 🛠️ Clean project structure
-- 🧩 Easy customization
+<!-- TOC -->
+## 🔖 Table of Contents
+- [What is Layout?](#what-is-layout)
+- [Features](#features)
+- [Preview / GIF](#preview--gif)
+- [Quickstart — Dev (copy/paste)](#quickstart--dev-copypaste)
+  - [Backend (Django)](#backend-django)
+  - [Frontend (React + Vite)](#frontend-react--vite)
+- [CLI One-Liners](#cli-one-liners)
+- [Dev tools & scripts (drop-in)](#dev-tools--scripts-drop-in)
+- [Docker (optional)](#docker-optional)
+- [Env examples](#env-examples)
+- [Clean dependencies](#clean-dependencies)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License & Author](#license--author)
 
 ---
 
-## 🛠️ Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" />
-  <img src="https://img.shields.io/badge/Styling-TailwindCSS-06B6D4?logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/Backend-Django-092E20?logo=django" />
-  <img src="https://img.shields.io/badge/API-DRF%20%2B%20JWT-orange?logo=fastapi" />
-  <img src="https://img.shields.io/badge/CORS-Enabled-success" />
-</p>
+## 🔥 What is Layout?
+Layout is a plug-and-play starter that wires up a modern frontend and backend with sensible defaults:
+- Vite + React + Tailwind for lightning-fast UI iteration
+- Django + Django REST Framework for robust APIs
+- SimpleJWT + CORS preconfigured for typical SPA backends
+- Dev niceties: ESLint, Prettier, Husky hooks (optional), GitHub Actions (example)
 
 ---
 
-## 📦 Installation
+## ✨ Features
+- 🧩 Ready-to-use auth (JWT) and CORS
+- ⚡ Fast dev workflow (Vite HMR + Django runserver)
+- 🐳 Optional Docker Compose for one-command local setup
+- 🧰 Prebuilt scripts for lint, format, test
+- 🔁 Minimal opinionated structure so you can focus on features
 
-### Backend
-```bash
-cd backend
-python -m venv env
-.\env\Scripts\activate   # Windows
-source env/bin/activate  # Linux/Mac
+---
 
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+## 🎬 Preview / GIF
+Add a `docs/demo.gif` (or `docs/screenshot.png`) and it'll display in the README:
+```md
+![demo](./docs/demo.gif)
